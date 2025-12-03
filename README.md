@@ -45,12 +45,13 @@ This helps demonstrate model convergence behavior and hyperparameter tuning insi
 
 ## 🚀 Get Started
 
-1️⃣ Clone this repository  
+1️⃣ Clone this repository:
 ```bash
 git clone https://github.com/radwanhefny/Gradient-Descent-Optimization-Dashboard.git
 ```
-2️⃣ Open Gradient_Descent_Optimization_Dashboard.pbix using Power BI Desktop
-3️⃣ Explore the visuals & hyperparameter effects 🎛️
+2️⃣ Open Gradient_Descent_Optimization_Dashboard.pbix using Power BI Desktop.
+
+3️⃣ Explore the visuals & hyperparameter effects 🎛️.
 
 ---
 
