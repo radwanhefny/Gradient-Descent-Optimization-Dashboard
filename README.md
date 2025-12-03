@@ -1,16 +1,22 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-Data%20Viz-00FFFF?style=for-the-badge&logo=microsoft-power-bi&logoColor=white" alt="Power BI">
+  <img src="https://img.shields.io/badge/License-MIT-00FFFF?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Status-Active-00FFFF?style=for-the-badge" alt="Status">
+</p>
+
 # 📊 Gradient Descent Optimization Dashboard
 
-An interactive **Power BI dashboard** visualizing the effect of **Learning Rate (α)** and **Iterations** on the performance of Linear Regression trained using Gradient Descent.  
-This helps demonstrate model convergence behavior and hyperparameter tuning insight.
+An interactive **Power BI dashboard** visualizing how **Learning Rate (α)** and **Iterations** affect Multivariate Linear Regression trained using **Gradient Descent From Scratch**.  
+Built to demonstrate **model convergence** and **hyperparameter tuning** insights for ML beginners and practitioners.
 
 ---
 
 ## ✨ Dashboard Features
-- R² score vs learning rate and iterations  
-- Cost function visualization for convergence tracking  
-- Scatter plots comparing predictions vs actual values  
-- Dark theme with neon highlights for better visibility  
-- Fully interactive slicers & tooltips  
+- R² score vs learning rate and iterations.
+- Cost function visualization for convergence tracking.
+- Scatter plots showing feature-target relationships.
+- Dark theme with neon highlights for better visibility. 
+- Fully interactive slicers & tooltips.
 
 ---
 
@@ -61,8 +67,10 @@ Gradient-Descent-Optimization-Dashboard/
 ├── Gradient_Descent_Optimization_Dashboard.pbix  # Power BI dashboard
 ├── README.md
 └── photos/
-      └── (dashboard screenshot)
-
+      ├── Dashboard.png
+      ├── Scatters.png
+      ├── Alpha effect on R2.png
+      └── Cost vs Iterations.png
 ```
 
 ---
