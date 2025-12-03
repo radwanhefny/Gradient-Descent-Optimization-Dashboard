@@ -16,24 +16,29 @@ This helps demonstrate model convergence behavior and hyperparameter tuning insi
 
 ## 🎬 Dashboard Preview
 
-### 🖥️ Full Dashboard View
+### 🖥️ Full Dashboard View:
 ![Dashboard](photos/Dashboard.png)
 
 ---
 
-### 📈 Scatter Plots: Predictions vs Actual Data
+### 📈 Scatter Plots:
+- Scatter plots showing the relationship between input features and the target variable
+- Used to visually assess feature correlation and linearity
+
 ![Scatters](photos/Scatters.png)
 
 ---
 
-### 🔺 Learning Rate Effect on R²
-Shows model performance sensitivity to α changes.
+### 🔺 Learning Rate Effect on R²:
+- Shows model performance sensitivity to α changes.
+
 ![Alpha Effect on R2](photos/Alpha%20effect%20on%20R2.png)
 
 ---
 
-### 📉 Cost Function vs. Iterations
-Visual relationship between learning progress and stability.
+### 📉 Cost Function vs. Iterations:
+- Visual relationship between learning progress and stability.
+
 ![Cost vs Iterations](photos/Cost%20vs%20Iterations.png)
 
 ---
@@ -47,6 +52,8 @@ git clone https://github.com/radwanhefny/Gradient-Descent-Optimization-Dashboard
 2️⃣ Open Gradient_Descent_Optimization_Dashboard.pbix using Power BI Desktop
 3️⃣ Explore the visuals & hyperparameter effects 🎛️
 
+---
+
 ## 🗂️ Project Structure
 ```
 Gradient-Descent-Optimization-Dashboard/
@@ -57,14 +64,20 @@ Gradient-Descent-Optimization-Dashboard/
 
 ```
 
+---
+
 ## 🔗 Related Project
 This dashboard is part of a complete From-Scratch Multivariate Linear Regression implementation:
 
 ➡️ Main ML Project Repo:
 https://github.com/radwanhefny/linear-regression-from-scratch-multivariate
 
+---
+
 ## 📝 License
 This project is licensed under the MIT license - see the LICENSE file for details. 
+
+---
 
 ## 📞 Support
 If you have questions or need help, feel free to:
