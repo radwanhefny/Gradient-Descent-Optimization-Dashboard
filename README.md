@@ -1,82 +1,71 @@
 # 📊 Gradient Descent Optimization Dashboard
-This Power BI dashboard visualizes how learning rates and iterations affect the performance of a Multivariate Linear Regression model trained from scratch using Gradient Descent.
-It helps understand model convergence, R² score behavior, and hyperparameter tuning impact on training stability and accuracy.
 
-## ✨ Features
-- Interactive line charts showing R² vs learning rate and iterations.
-- Smooth performance curves generated from 200+ interpolated values.
-- Heatmaps visualizing correlation and training metrics.
-- Neon-style color theme for clear visualization on a dark background.
-- Designed for insight into Gradient Descent optimization.
-## 📋 Prerequisites
-Before using this dashboard, ensure you have:
-- Power BI Desktop (latest version recommended)
-- Python 3.8+ (for generating CSV data)
-- Pandas + NumPy + Matplotlib (optional, if regenerating data)
-## 🚀 Getting Started
-1. Clone the repository:
+An interactive **Power BI dashboard** visualizing the effect of **Learning Rate (α)** and **Iterations** on the performance of Linear Regression trained using Gradient Descent.  
+This helps demonstrate model convergence behavior and hyperparameter tuning insight.
+
+---
+
+## ✨ Dashboard Features
+- R² score vs learning rate and iterations  
+- Cost function visualization for convergence tracking  
+- Scatter plots comparing predictions vs actual values  
+- Dark theme with neon highlights for better visibility  
+- Fully interactive slicers & tooltips  
+
+---
+
+## 🎬 Dashboard Preview
+
+### 🖥️ Full Dashboard View
+![Dashboard](photos/Dashboard.png)
+
+---
+
+### 📈 Scatter Plots: Predictions vs Actual Data
+![Scatters](photos/Scatters.png)
+
+---
+
+### 🔺 Learning Rate Effect on R²
+Shows model performance sensitivity to α changes.
+![Alpha Effect on R2](photos/Alpha%20effect%20on%20R2.png)
+
+---
+
+### 📉 Cost Function vs. Iterations
+Visual relationship between learning progress and stability.
+![Cost vs Iterations](photos/Cost%20vs%20Iterations.png)
+
+---
+
+## 🚀 Get Started
+
+1️⃣ Clone this repository  
 ```bash
 git clone https://github.com/radwanhefny/Gradient-Descent-Optimization-Dashboard.git
-cd Gradient-Descent-Optimization-Dashboard
-
 ```
-2. Open the PBIX file in Power BI Desktop:
-```bash
-Gradient_Descent_Optimization_Dashboard.pbix
-```
-3. Explore the interactive dashboard:
-- Hover over lines for R² values.
-- Use slicers to filter by iterations or learning rates.
-- Analyze the effect of hyperparameter tuning visually.
-- 
-## 🎬 Screenshots / Demo
-
-📈 R² vs Learning Rate & Iterations
-
-Visualizes model performance and convergence.
-<img src="https://github.com/radwanhefny/radwanhefny/blob/main/photos/data%20analysis/multivariate%20LR.jpg" width="500"/>
-
-
-
-
+2️⃣ Open Gradient_Descent_Optimization_Dashboard.pbix using Power BI Desktop
+3️⃣ Explore the visuals & hyperparameter effects 🎛️
 
 ## 🗂️ Project Structure
 ```
 Gradient-Descent-Optimization-Dashboard/
 ├── Gradient_Descent_Optimization_Dashboard.pbix  # Power BI dashboard
-├── smooth_curve_data.csv                         # Interpolated LR/R² values
 ├── README.md
-└── images/
-      └── multivariate_LR.jpg                    # Dashboard screenshot
-
-
-
-
+└── photos/
+      └── (dashboard screenshot)
 
 ```
-## 🛠️ Usage
-- Open PBIX file in Power BI Desktop.
-- Interact with visuals to explore training behavior.
-- Optional: regenerate smooth curves using Python scripts if included.
 
-## ✅ Evaluation Metrics
-- R² Score (main metric visualized in the dashboard).
-- Visual inspection of convergence trends for different learning rates and iterations.
-- 
-## 🧠 How It Works
-1. Generates model predictions for multiple learning rates and iterations.
-2. Calculates R² scores to measure performance.
-3. Interpolates values for smooth curve visualization.
-4. Plots interactive line charts and heatmaps in Power BI.
+## 🔗 Related Project
+This dashboard is part of a complete From-Scratch Multivariate Linear Regression implementation:
 
-## 🤝 Contributing
-Contributions are welcome!
-1. Fork the repository
-2. Create a new feature branch
-3. Submit a pull request
-Please ensure your code is clean, structured, and well-commented.
+➡️ Main ML Project Repo:
+https://github.com/radwanhefny/linear-regression-from-scratch-multivariate
+
 ## 📝 License
 This project is licensed under the MIT license - see the LICENSE file for details. 
+
 ## 📞 Support
 If you have questions or need help, feel free to:
 - Open an issue on this repository  
